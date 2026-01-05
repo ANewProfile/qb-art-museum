@@ -2,18 +2,21 @@ import LinkCard from "../components/LinkCard";
 import DashboardRow from "../components/DashboardRow";
 import "../styles/Dashboard.css";
 
+import MonaLisaImage from "../assets/monalisa.jpg";
+import LastSupperImage from "../assets/lastsupper.jpg";
+
 function Renaissance() {
     return (
         <div className="dashboard">
             <DashboardRow>
                 <LinkCard
-                    imagePath={"https://logos-world.net/google-logo/"}
+                    imagePath={MonaLisaImage}
                     url={"/renaissance/mona-lisa"}
                     name={"Mona Lisa"}
                     maximumWidth={"25%"}
                 />
                 <LinkCard
-                    imagePath={"https://logos-world.net/google-logo/"}
+                    imagePath={LastSupperImage}
                     url={"/renaissance/last-supper"}
                     name={"The Last Supper"}
                     maximumWidth={"25%"}

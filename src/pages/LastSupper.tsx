@@ -1,24 +1,24 @@
-import "../styles/WorkPages.css"
-import MonaLisaImage from "../assets/monalisa.jpg"
+import "../styles/WorkPages.css";
+import LastSupperImage from "../assets/lastsupper.jpg"
 
-function MonaLisa() {
+function LastSupper() {
     return (
         <div className="h-[92.5vh] flex flex-col overflow-hidden">
             <main className="everything">
                 <div className="image-container">
                     <img
-                        src={MonaLisaImage}
-                        alt="Image of the Mona Lisa"
+                        src={LastSupperImage}
+                        alt="Image of The Last Supper"
                         className="work-image"
                     />
                 </div>
                 <section className="description">
                     <p>
-                        <strong>Title</strong>: <em>Mona Lisa</em><br/>
+                        <strong>Title</strong>: <em>The Last Supper</em><br/>
                         <strong>Artist</strong>: Leonardo da Vinci<br/>
-                        <strong>Medium</strong>: Oil on a poplar wood panel<br/>
-                        <strong>Date</strong>: sometime between 1503 and 1519<br/>
-                        <strong>Curent Location</strong>: the Louvre Museum in Paris, France<br/><br/><br/>
+                        <strong>Medium</strong>: Mural (tempera on a dry wall)<br/>
+                        <strong>Date</strong>: probably between 1495 and 1498<br/>
+                        <strong>Curent Location</strong>: refectory of the Convent of Santa Maria delle Grazie in Milan, Italy<br/><br/><br/>
                     </p>
                     <p>
                     The painting presents a woman in a half-body portrait, with a distant landscape as the backdrop. The three-quarter view used in the painting, where the subject mostly turns towards the viewer, 
@@ -45,4 +45,4 @@ function MonaLisa() {
     )
 }
 
-export default MonaLisa;
+export default LastSupper;

@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard';
 // Renaissance
 import Renaissance from './pages/Renaissance';
 import MonaLisa from './pages/MonaLisa';
+import LastSupper from './pages/LastSupper';
 
 // Baroque
 // import Baroque from './pages/Baroque';
@@ -30,7 +31,7 @@ function App() {
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/renaissance" element={<Renaissance />} />
                 <Route path="/renaissance/mona-lisa" element={<MonaLisa />} />
-                <Route path="/renaissance/last-supper" element={<Renaissance />} />
+                <Route path="/renaissance/last-supper" element={<LastSupper />} />
                 <Route path="/renaissance/vitruvian-man" element={<Renaissance />} />
                 <Route path="/renaissance/school-of-athens" element={<Renaissance />} />
                 <Route path="/renaissance/creation-of-adam" element={<Renaissance />} />
